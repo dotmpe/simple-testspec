@@ -1,5 +1,5 @@
 
-# Id: simple-testspec/0.0.1-master Makefile
+# Id: simple-testspec/0.0.1-dev Makefile
 
 BUILD               := .build/
 # some variants on CURDIR:
@@ -11,7 +11,7 @@ ENV                 ?= $(shell [ -n "$$ENV" ] && echo $$ENV || echo development)
 
 
 PROJECT              := 
-VERSION              = 0.0.1-master# simple-testspec
+VERSION              = 0.0.1-dev# simple-testspec
 
 # See GIT versioning project for more complete PROJECT heuristic
 ifneq ($(wildcard package.yml package.yaml),)

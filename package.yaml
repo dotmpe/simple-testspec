@@ -1,15 +1,15 @@
 # simple-testspec main: simple-testspec
 
-# Id: simple-testspec/0.0.1-master package.yaml
+# Id: simple-testspec/0.0.1-dev package.yaml
 # Start
 
 - type: application/x-project-mpe
   id: simple-testspec
-  version: 0.0.1-master # simple-testspec
+  version: 0.0.1-dev # simple-testspec
   environments: [ 'development' ]
 
 # End
-# Id: simple-testspec/0.0.1-master package.yaml
+# Id: simple-testspec/0.0.1-dev package.yaml
 
 # Id: git-versioning/0.0.16-master package.yaml
 # Start

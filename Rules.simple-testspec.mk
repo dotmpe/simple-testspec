@@ -1,4 +1,4 @@
-# Id: simple-testspec/0.0.1-master Rules.simple-testspec.mk
+# Id: simple-testspec/0.0.1-dev Rules.simple-testspec.mk
 
 include $(DIR)/Rules.simple-testspec.shared.mk
 

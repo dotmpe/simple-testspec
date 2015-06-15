@@ -1,0 +1,4 @@
+script: make
+env:
+- ENV=
+install: npm install -g yamljs

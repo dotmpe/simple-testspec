@@ -1,0 +1,5 @@
+ReadMe.rst
+Makefile
+Rules.simple-testspec.mk
+Rules.simple-testspec.shared.mk
+package.yaml

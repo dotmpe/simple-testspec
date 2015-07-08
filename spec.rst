@@ -14,11 +14,63 @@ Such structure should be used within a versioned project to provide
 for a level of confidence in the accuracy or stability for a given
 version. See semver_ for more.
 
+
 .. _semver: http://semver.org
+
+
+Goals
+-----
+
+- Keep documentation bodies separate from source code (including tests).
+
+- Provide a versioned referencing system to refer to documentation,
+  keeping a version for each subject and testcase.
+
+- Export or integrate the output with a test-specification.
+  Going with `bats`: [Bash Automated Testing System] initially.
+
+- Integrate with some test-result format, and provide a 
+  a simple rule engine to grade the results given the specs extracted
+  from the document.
+
+
+Plan
+-----
+- Get a text-parser going.
+- Implement a plumbing command for storage and retrieval with ids and
+  checksums.
+- Can try Haskell and pandoc. And/or Python. Later. 
+  First do a simple Bash version, nevermind it will be somewhat limited and
+  maybe even buggy.
+
+
+Implementation
+---------------
+Getting the texts from the document with bash will be somewhat challenging.
+The texts are Id' their checksum. 
+
+This current project assumes only one or a few specification documents
+with shared some tens or hundreds of specs. Not expecting much more, 
+look at software unit testing.
+
+So maybe one subject/testcase index file per document.
+Or, what if each ID and checksum accompanies a file path, for the testcases.
+Specs (or subjects) will just be an index. Testcases is different.
+
+Initially the bash version will not do much cross referencing etc,
+just provide the paragraph numbers as it where.
+
+
+Progress
+---------
+Conceptual only. Some research.
 
 
 Terms
 -----
+Just diving in and writing a sort of formal spec to be tested.
+Some crufty things ahead, applying to older project versions.
+
 
 .. _1:
 .. _`specification (1)`:

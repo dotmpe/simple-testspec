@@ -1,4 +1,4 @@
-:version: 0.0.1-dev
+:version: 0.0.2-dev
 :project:
 
   .. image:: https://secure.travis-ci.org/dotmpe/mkdoc.png
@@ -8,4 +8,4 @@
 
 Some doodling on test specification.
 
-No tests yet.
+No tests yet. Preliminary conceptualization in main.rst.
